@@ -1,0 +1,18 @@
+name: mcp-audit
+type: remote
+dynamic:
+  tools: true
+meta:
+  category: devops
+  tags:
+    - devops
+    - security
+    - static-analysis
+    - remote
+about:
+  title: MCP Audit
+  description: Audits an MCP server's source code for security risk (command injection, unsafe file access, secret exposure, dangerous permissions, prompt injection in tool descriptions) and returns a graded report.
+  icon: https://www.google.com/s2/favicons?domain=web3project.top&sz=64
+remote:
+  transport_type: streamable-http
+  url: https://web3project.top/mcp
